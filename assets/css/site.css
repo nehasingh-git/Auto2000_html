@@ -98,7 +98,7 @@ body {
 .contact-us-bg {
   background-image: url('../images/remarkable_service.jpg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   align-items: center;
 
 }
@@ -223,7 +223,15 @@ body {
 }
 .testimonials .card{
   width: 25%;
+  
 }
+@media (max-width: 575.98px) {
+  .testimonials .card{
+    width: auto;
+  }
+
+}
+
 .testimonials .rounded-circle{
   background-image: url('../images/testimonial.png');
   background-repeat: no-repeat;
