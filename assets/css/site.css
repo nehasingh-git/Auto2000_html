@@ -203,16 +203,23 @@ body {
 .footer {
   background-color: #4c4d4f;
   color:white !important;
+  font-size: smaller;
+  padding-top:65px
  
 }
+@media (max-width: 575.98px) {
+  .footer {
+      padding-top:155px
+  }
+
+}
+
 .footer a{
   color:white !important;
   text-decoration: none;
   font-size: smaller;
 }
-.footer{
-  font-size: smaller;
-}
+ 
 .footer .divider{
   width: 18%;
 }
