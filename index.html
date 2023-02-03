@@ -228,7 +228,7 @@
                     </div>
 
                     <div class="mt-4  px-3 mb-5">
-                        <button type="button" class="btn btn-primary bg-red btn-lg btn-block">BOOK NOW</button>
+                        <button id="btnRegistration" type="button" class="btn btn-primary bg-red btn-lg btn-block">BOOK NOW</button>
                     </div>
                 </div>
             </div>
@@ -500,28 +500,8 @@
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-        <script type="text/javascript">
-            window.onbeforeunload = function () {
-                window.scrollTo(0, 0);
-            }
-
-
-
-            window.onload = function () {
-                aos_init();
-                // document.getElementById('mymarquee').stop();
-            }
-
-            // Init AOS
-            function aos_init() {
-                AOS.init({
-                    duration: 1000,
-                    easing: "ease-in-out",
-                    once: true,
-                    mirror: false
-                });
-            }
-        </script>
+        <script type="text/javascript" src="./assets/js/main.js"></script>
+            
 
 </body>
 
