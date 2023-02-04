@@ -149,8 +149,25 @@ body {
 .service-card {
   opacity: 0.9;
   background-color: #252021 !important;
+  padding: 2rem 4.2rem;
+  margin: 4rem;
 }
 
+@media (max-width: 575.98px) {
+  .service-card {
+     
+    padding: 2rem 2rem;
+    margin: 1rem;
+  }
+  
+
+}
+.service-card  {
+  color: white;
+}
+.service-card .num-heading{
+  font-size: 1.3rem;
+}
 .service-card .btn {
   font-size: 1rem;
   font-weight: bold;
@@ -166,19 +183,17 @@ body {
   border-radius: 0em !important;
 }
 
-.choose-us-bg1 {
-  background-image: url('../images/why_us.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 80%;
-  height: 750px;
+
+
+@media (min-width:600px)  {
+  .choose-us-bg1 {
+    background-image: url('../images/why_us.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 750px;
+  }
 }
-
-
-
-
-
-
 
 
 .section {
