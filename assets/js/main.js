@@ -21,7 +21,7 @@ function registrationVehicle() {
     alert("Please Enter Registration Number.")
   }
 
-  else if (ele.value.length < 7) {
+  else if (ele.value.length < 6) {
     alert("Please Enter Valid Registration Number.")
   }
   else {

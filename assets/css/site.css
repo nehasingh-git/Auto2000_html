@@ -186,12 +186,18 @@ body {
 
 
 @media (min-width:600px)  {
-  .choose-us-bg1 {
+  .choose-us-bg {
     background-image: url('../images/why_us.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 80%;
     height: 750px;
+  }
+  .choose-us-bg .customer{
+    padding-top:150px ;
+  }
+  .choose-us-bg .time{
+    padding-top:150px ;
   }
 }
 
