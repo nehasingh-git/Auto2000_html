@@ -154,8 +154,9 @@ body {
 }
 
 .bg-black {
-  background-color: black;
+  background-color: #1a1a1a;
 }
+
 
 
 
@@ -334,9 +335,10 @@ body {
 
 
 
-add-on-services .card {
+.add-on-services .card {
   width: 28%;
 }
+
 .other-modification-services .card {
   width: 30%;
 }
@@ -346,6 +348,7 @@ add-on-services .card {
   .add-on-services .card {
     width: 49%;
   }
+
   .other-modification-services .card {
     width: 49%;
   }
@@ -353,23 +356,26 @@ add-on-services .card {
 
 
 .choose-service-box {
+  height: 80px;
+  width:80px;
   position: absolute;
   left: 3rem;
   top: -40px;
 }
-
-.callender-box {
-  background: white;
-  /* border-left: 1px solid black !important; */
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+.service-box{
+  height: 160px;
 }
 
-/* #date{
-  border: 1px solid #0097e6;
-  display: block;
-  padding: 15px 45px;
-  outline: none;
-  text-align: center;
-  transition: 250ms width ease, 250ms border-color ease;
-} */
+
+.card-input-element {
+  display: none;
+}
+ 
+.card-input:hover {
+  cursor: pointer;
+}
+
+.card-input-element:checked+.card-input {
+  box-shadow: 0 0 1px 1px rgb(208, 1, 28);
+  ;
+}

@@ -48,23 +48,4 @@ function test() {
   xhr.send(data);
 }
 
-// let pickupDate = document.getElementById('pickupDate');
-// pickupDate.datepicker();
-// pickupDate.addEventListener('change',(e)=>{
-//   let startDateVal = e.target.value
-//   document.getElementById('startDateSelected').innerText = startDateVal
-// })
-
-var dateComponent = new DatePicker({
-  el: document.querySelector('#calendar'),
-  onchange: function (curr) {
-      dateInput.value = curr;
-  }
-});
-
-var dateInput = document.querySelector('#datePicker');
-
-dateInput.onfocus = function () {
-dateComponent.show();
-};
 
