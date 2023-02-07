@@ -144,14 +144,16 @@ body {
   /* background-color: #d4d6d7 !important; */
   background-color: #f8f8f9;
 }
-.bg-darkgrey{
+
+.bg-darkgrey {
   background-color: #d8d9db;
 }
 
 .bg-brown {
   background-color: #302b29;
 }
-.bg-black{
+
+.bg-black {
   background-color: black;
 }
 
@@ -332,13 +334,23 @@ body {
 
 
 
-
-.add-on-services .card{
+add-on-services .card {
   width: 28%;
 }
-.other-modification-services .card{
-width: 30%;
+.other-modification-services .card {
+  width: 30%;
 }
+
+
+@media (max-width: 575.98px) {
+  .add-on-services .card {
+    width: 49%;
+  }
+  .other-modification-services .card {
+    width: 49%;
+  }
+}
+
 
 .choose-service-box {
   position: absolute;
@@ -346,11 +358,11 @@ width: 30%;
   top: -40px;
 }
 
-.callender-box{
+.callender-box {
   background: white;
-    /* border-left: 1px solid black !important; */
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+  /* border-left: 1px solid black !important; */
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 /* #date{
